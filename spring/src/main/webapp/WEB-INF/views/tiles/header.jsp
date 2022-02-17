@@ -67,3 +67,4 @@
     var GV_SRCH_PARM = {};
     var GV_STORY_DETAIL_URL = '${ctag:prop("story.url")}';
 </script> --%>
+<p>header</p>
