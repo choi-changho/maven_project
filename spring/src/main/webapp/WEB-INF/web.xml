@@ -1,7 +1,71 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+    id="WebApp_ID" version="3.1">
+  <display-name>Maven Spring Project</display-name>
+  
+  <!-- Logback 설정 -->
+  <listener>
+      <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class>
+  </listener>
+  
+  <context-param>
+      <param-name>logbackConfigLocation</param-name>
+      <param-value>classpath:logback.xml</param-value>
+  </context-param>
+  
+  <!-- dispatcher servlet 설정 -->
+  <servlet>
+      <servlet-name>dispatcher</servlet-name>
+      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+      <init-param>
+          <param-name>contextConfigLocation</param-name>
+          <param-value>classpath*:config/dispatcher-servlet.xml</param-value>
+      </init-param>
+  </servlet>
 
-<web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <servlet-mapping>
+      <servlet-name>dispatcher</servlet-name>
+      <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Welcome 경로 설정 -->
+  <welcome-file-list>
+      <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- tld 설정 -->
+  <jsp-config>
+      <taglib>
+          <taglib-uri>http://customTag.com/jstl</taglib-uri>
+          <taglib-location>/WEB-INF/tlds/custom.tld</taglib-location>
+      </taglib>
+  </jsp-config>
+    
+  <!-- error 페이지 설정 -->
+  <error-page>
+      <exception-type>java.lang.Throwable</exception-type>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
+  <error-page>
+      <exception-type>java.lang.Exception</exception-type>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
+  <error-page>
+      <error-code>403</error-code>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
+  <error-page>
+      <error-code>404</error-code>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
+  <error-page>
+      <error-code>401</error-code>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
+  <error-page>
+      <error-code>500</error-code>
+      <location>/WEB-INF/views/error404.jsp</location>
+  </error-page>
 </web-app>
