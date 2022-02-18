@@ -13,6 +13,14 @@
         <put-attribute name="body" expression="/WEB-INF/views/${tilesBody}.jsp"/>
     </definition>
     
+    <definition name=".commonView" template="/WEB-INF/views/tiles/commonLayout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp"/>
+    </definition>
+    
+    <definition name="commonView" extends=".commonView">
+        <put-attribute name="body" expression="/WEB-INF/views/${tilesBody}.jsp"/>
+    </definition>
+    
     <!-- ============== Error ============== -->
     <definition name="error" extends=".empty">
         <put-attribute name="body" value="/WEB-INF/views/error.jsp" />

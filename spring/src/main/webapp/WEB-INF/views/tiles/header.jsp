@@ -3,7 +3,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1 , minimum-scale=1, target-densityDpi=device-dpi">
-<%-- <link rel="shortcut icon" type="image/x-icon" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/img/${ctag:prop("img.favicon")}'>
+<link rel="shortcut icon" type="image/x-icon" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/img/${ctag:prop("img.favicon")}'>
 
 <link rel='stylesheet' type='text/css' href='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/css/w2ui-1.5.min.css' />
 <link rel="stylesheet" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/plugin/css/jquery-ui.css?dt=${nowDate}'>
@@ -42,7 +42,7 @@
 
 <!-- Import Trumbowyg plugins... -->
 <script type="text/javascript" src='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/js/editor/ko.min.js'></script>
-
+<!--
 <script type="text/javascript">
     // Global Variable
     var GV_CODES = {};

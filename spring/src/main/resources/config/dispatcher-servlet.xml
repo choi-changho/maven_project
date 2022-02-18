@@ -64,13 +64,12 @@
         </property>
     </bean>
     
-    <!--
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**/*.do" />
             <mvc:mapping path="/**/*.view" />
-            <bean id="authInterceptor" class="com.hyundai.hmg.servlet.interceptor.AuthInterceptor" />
+            <bean id="authInterceptor" class="com.spring.prj.sevlet.interceptor.AuthInterceptor" />
         </mvc:interceptor>
-    </mvc:interceptors> -->
+    </mvc:interceptors>
 
 </beans>

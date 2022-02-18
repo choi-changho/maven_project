@@ -31,6 +31,7 @@ import org.springframework.core.io.FileSystemResource;
  *               </pre>
  */
 public class Info extends PropertyPlaceholderConfigurer {
+	private static Logger LOG = LoggerFactory.getLogger(Info.class);
 	// System 정보
 	private static String systemMode;
 	
@@ -39,7 +40,7 @@ public class Info extends PropertyPlaceholderConfigurer {
 	
 	private static String propertiesPath;
 	
-	private static Logger LOG = LoggerFactory.getLogger(Info.class);
+	public static String contextPath = "";
 	
 	/**
 	 * @brief System Information
