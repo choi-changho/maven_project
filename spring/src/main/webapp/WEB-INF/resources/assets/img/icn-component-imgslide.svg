@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>193495D8-C836-46CD-ADD0-0C73CB4B0C3F</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0432_스토리-스토리-등록-컴포넌트" transform="translate(-810.000000, -1481.000000)">
+            <g id="미디어" transform="translate(516.000000, 1469.000000)">
+                <g id="btn/component" transform="translate(269.000000, 0.000000)">
+                    <g id="Icn/component/imgslide" transform="translate(25.000000, 12.000000)">
+                        <rect id="icon" fill="#FF0000" opacity="0" x="0" y="0" width="36" height="36"></rect>
+                        <path d="M25.5834,30 L10.9164,30 C8.3504,30 6.2504,27.683 6.2504,24.851 L6.2504,11.149 C6.2504,8.317 8.3504,6 10.9164,6 L25.5834,6 C28.1504,6 30.2504,8.317 30.2504,11.149 L30.2504,24.851 C30.2504,27.683 28.1504,30 25.5834,30 Z" id="Stroke-1" stroke="#000000" stroke-width="1.4"></path>
+                        <path d="M6.25,21.5 L12.479,17.051 C12.95,16.714 13.573,16.676 14.082,16.954 L23.519,22.101 C23.985,22.356 24.536,22.405 25.04,22.237 L30.25,20.5" id="Stroke-3" stroke="#000000" stroke-width="1.4"></path>
+                        <path d="M26.75,11.5 C26.75,12.6048 25.8548,13.5 24.75,13.5 C23.6452,13.5 22.75,12.6048 22.75,11.5 C22.75,10.3952 23.6452,9.5 24.75,9.5 C25.8548,9.5 26.75,10.3952 26.75,11.5 Z" id="Stroke-5" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"></path>
+                        <path d="M4,27 C2.9,27 2,25.262 2,23.138 L2,12.862 C2,10.738 2.9,9 4,9" id="Stroke-7" stroke="#000000" stroke-width="1.4" stroke-linecap="round"></path>
+                        <path d="M32.5,9.0118 C33.6,9.0118 34.5,10.7498 34.5,12.8738 L34.5,23.1498 C34.5,25.2738 33.6,27.0118 32.5,27.0118" id="Stroke-9" stroke="#000000" stroke-width="1.4" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

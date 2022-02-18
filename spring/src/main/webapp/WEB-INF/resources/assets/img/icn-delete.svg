@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D46FAA17-DF7B-4A2C-B620-7A9118319D63</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0432_스토리-스토리-등록-컴포넌트" transform="translate(-1546.000000, -1326.000000)">
+            <g id="Ui/comp-module-defalt" transform="translate(496.000000, 1318.000000)">
+                <g id="Icn/delete" transform="translate(1050.000000, 8.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <g id="icn/edit-copy-3" transform="translate(2.000000, 2.000000)" fill="#FF0000">
+                        <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                    </g>
+                    <path d="M16.2307692,7 L17,7.76923077 L12.769,12 L17,16.2307692 L16.2307692,17 L12,12.769 L7.76923077,17 L7,16.2307692 L11.231,12 L7,7.76923077 L7.76923077,7 L12,11.231 L16.2307692,7 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

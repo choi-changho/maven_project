@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CBF64111-41FB-445C-A7CA-7020618C221C</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0432_스토리-스토리-등록-컴포넌트" transform="translate(-716.000000, -1481.000000)">
+            <g id="미디어" transform="translate(516.000000, 1469.000000)">
+                <g id="Icn/component/parallax" transform="translate(200.000000, 12.000000)">
+                    <rect id="icon" fill="#FF0000" opacity="0" x="0" y="0" width="36" height="36"></rect>
+                    <g id="Group-15" transform="translate(6.000000, 6.000000)">
+                        <path d="M19.333,24 L4.666,24 C2.1,24 0,21.683 0,18.851 L0,5.149 C0,2.317 2.1,0 4.666,0 L19.333,0 C21.9,0 24,2.317 24,5.149 L24,18.851 C24,21.683 21.9,24 19.333,24 Z" id="Stroke-1" stroke="#000000" stroke-width="1.4"></path>
+                        <path d="M11.9996,18.5 L11.9996,18.5 C9.5246,18.5 7.4996,16.475 7.4996,14 L7.4996,7 C7.4996,4.525 9.5246,2.5 11.9996,2.5 L11.9996,2.5 C14.4746,2.5 16.4996,4.525 16.4996,7 L16.4996,14 C16.4996,16.475 14.4746,18.5 11.9996,18.5" id="Fill-3" fill="#FFFFFF"></path>
+                        <path d="M11.9996,18.5 L11.9996,18.5 C9.5246,18.5 7.4996,16.475 7.4996,14 L7.4996,7 C7.4996,4.525 9.5246,2.5 11.9996,2.5 L11.9996,2.5 C14.4746,2.5 16.4996,4.525 16.4996,7 L16.4996,14 C16.4996,16.475 14.4746,18.5 11.9996,18.5 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="2.4"></path>
+                        <path d="M11.9996,18.5 L11.9996,18.5 C9.5246,18.5 7.4996,16.475 7.4996,14 L7.4996,7 C7.4996,4.525 9.5246,2.5 11.9996,2.5 L11.9996,2.5 C14.4746,2.5 16.4996,4.525 16.4996,7 L16.4996,14 C16.4996,16.475 14.4746,18.5 11.9996,18.5 Z" id="Stroke-7" stroke="#000000"></path>
+                        <polyline id="Stroke-9" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" points="14.5362 21.3105 13.2859463 22.3765 12.0356926 23.4425 10.7864537 22.3765 9.5362 21.3105"></polyline>
+                        <polyline id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="14.5362 21.3105 13.2859463 22.3105 12.0356926 23.3105 10.7864537 22.3105 9.5362 21.3105"></polyline>
+                        <line x1="11.9996" y1="5.4383" x2="11.9996" y2="7.9383" id="Stroke-13" stroke="#000000" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

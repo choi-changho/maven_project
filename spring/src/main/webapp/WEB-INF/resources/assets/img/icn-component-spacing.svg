@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3B1C7810-9BF0-4C6F-BF01-D342647A9422</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0432_스토리-스토리-등록-컴포넌트" transform="translate(-622.000000, -1587.000000)">
+            <g id="기타" transform="translate(516.000000, 1570.000000)">
+                <g id="Icn/component/spacing" transform="translate(106.000000, 17.000000)">
+                    <rect id="Rectangle" fill="#FF0000" opacity="0" x="0" y="0" width="36" height="36"></rect>
+                    <g id="Group-17" transform="translate(7.000000, 10.000000)" stroke="#000000" stroke-linecap="round" stroke-width="1.4">
+                        <line x1="9.7721" y1="0.5" x2="21.7721" y2="0.5" id="Stroke-1"></line>
+                        <line x1="9.7721" y1="4.2983" x2="21.7721" y2="4.2983" id="Stroke-3"></line>
+                        <line x1="9.7721" y1="8.0965" x2="21.7721" y2="8.0965" id="Stroke-5"></line>
+                        <line x1="9.7721" y1="11.8947" x2="21.7721" y2="11.8947" id="Stroke-7"></line>
+                        <line x1="9.7721" y1="15.693" x2="21.7721" y2="15.693" id="Stroke-9"></line>
+                        <polyline id="Stroke-11" points="6.1961 3.3465 3.0981 0.3465 0.0001 3.3465"></polyline>
+                        <polyline id="Stroke-13" points="-9.99200722e-16 12.8465 3.098 15.8465 6.196 12.8465"></polyline>
+                        <line x1="3.0981" y1="1.6535" x2="3.0981" y2="14.6535" id="Stroke-15"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

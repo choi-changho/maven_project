@@ -1,0 +1,204 @@
+﻿@charset "UTF-8";
+
+/* 개발자 추가 영역 */
+.comp-block{display: inline-block;}
+.comp-hide{display: none;}
+#lnb .lnb-depth1.current{
+    background: #e3e7ed;
+}
+#lnb .lnb-depth2.current{
+    text-decoration: underline;
+}
+
+.error_wrp {
+    width: 100%;
+    height: calc(100% - 107px);
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+}
+
+.error_section {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error_section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    max-width: 918px;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.error_404 h1 {
+    max-width: 764px;
+}
+
+.error_section p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 767px;
+    margin: 30px auto 80px;
+}
+
+.error_section .basic-btn {
+    height: 60px;
+    min-width: 173px;
+}
+
+.error_section .basic-btn span{
+    display: inline-block;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+}
+
+/* 
+.w2ui-grid-data-spacer{display: none;}
+.w2ui-grid {border-color:#e7e7e7; border-top-color: #6d88b7; border-radius: 0;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-columns, .w2ui-grid .w2ui-grid-body .w2ui-grid-fcolumns {box-shadow: none;}
+.w2ui-grid .w2ui-grid-body table .w2ui-head {background: #f7faff;  border-bottom:none; text-align: center;color: #444444; padding: 6px 5px 4px 5px; font-weight: bold;}
+.w2ui-grid .w2ui-grid-body table td:first-child {height: 0px;}
+.w2ui-grid .w2ui-grid-body table td:first-child div {text-align: center;}
+.w2ui-grid .w2ui-grid-body table td:nth-child(2) {border-left: none;}
+
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr:first-child  {padding: 0;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr:first-child td {padding: 0; border: none;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table td:first-child  {padding: 0;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td:nth-child(2)  {border-left: none;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td{border-bottom: none;}
+
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr:first-child  {padding: 0;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr:first-child td {padding: 0; border: none;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table td:first-child  {padding: 0;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td:nth-child(2)  {border-left: none;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td{border-bottom: none;}
+
+.w2ui-empty-record{border:none;}
+ 
+.w2ui-grid .w2ui-grid-body .w2ui-grid-data-last{padding:0; border: none;}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-even, .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-even {background:#ffffff}
+.w2ui-grid .w2ui-grid-body table td .btn_list  {line-height:26px; height:26px; margin-top:0; background-color:#ffffff;}
+
+.w2ui-reset table tr th{
+font-family: "HyundaiSansTextKR", "Malgun Gothic",dotum,gulim,sans-serif;
+    font-size: 13px;
+}
+
+.w2ui-reset table tr td {
+    font-family: "HyundaiSansTextKR", "Malgun Gothic",dotum,gulim,sans-serif;
+    font-size: 12px;
+}
+
+.w2ui-grid .w2ui-grid-body table input[type="text"] {
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+}
+.w2ui-grid .w2ui-grid-body table input[type="text"]:focus {border:1px solid #012c60;}
+ */
+ .w2ui-grid .w2ui-grid-body table input[type="text"] {
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+}
+.w2ui-grid input[type="checkbox"] {appearance: auto;}
+.w2ui-grid input[type="radio"] {appearance: auto;}
+.w2ui-col-header .hmg-form-checkbox {
+    padding: 3px 3px 3px 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.pop-wrap .w2ui-grid-fcolumns .w2ui-col-select{height: 30px !important;}
+.w2ui-grid-fcolumns .w2ui-col-select{height: 42px !important;}
+.w2ui-grid .w2ui-grid-body table .w2ui-head>div {padding: 7px 3px !important;}
+.w2ui-grid-frecords .w2ui-col-number{background-color: transparent !important;}
+.w2ui-grid .ui-selectmenu-text {padding-top:5px;}
+.w2ui-grid-data .hmg-form-select {padding-top: 2.5px; padding-bottom: 2.5px;}
+
+ul.dynatree-container {border: none;}
+.ui-datepicker table{font-size:15px;}
+.ui_tpicker_hour_label, .ui_tpicker_minute_label, .ui_tpicker_hour, .ui_tpicker_minute{font-size:15px;}
+.__jqueryDate{width:120px !important;}
+.ui-datepicker-title{display: inline-flex;}
+.ui-datepicker-month{font-size:15px !important; width:80px !important;}
+.ui-datepicker-year {font-size:15px !important; width:80px !important;}
+.hmg-form-input .trumbowyg-box +.trumbowyg-box{margin-top:20px;}
+
+.dynatree-ico-ef span.dynatree-expander,
+.dynatree-ico-ef span.dynatree-expander:hover {
+    background-image: url("../img/icn-tree-fold.svg");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    margin-top: 4px;
+}
+.dynatree-ico-cf span.dynatree-expander{
+    background-image: url("../img/icn-tree-spread.svg");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    margin-top: 4px;
+}
+.dynatree-ico-ef span.dynatree-icon{display: none;}
+.dynatree-ico-cf span.dynatree-icon{display: none;}
+.dynatree-ico-c span.dynatree-connector{
+    display: none;
+}
+.dynatree-ico-c span.dynatree-icon{
+    background: transparent;
+    width:6px;
+}
+
+.custom-slide-removebtn {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icn-delete-gray.svg");
+    text-indent: -9999px;
+}
+
+.pop-box.type-w800{
+    width:800px;
+}
+
+.bill-image-w1h1 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    background: url("../img/img-img-placeholder.svg") center center no-repeat, #eee;
+    overflow:hidden;
+}
+.bill-video-w1h1 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    background: url("../img/img-video-placeholder.svg") center center no-repeat, #eee;
+    overflow:hidden;
+}
+.select-overflow{height:400px;}
+
+.hmg-form-radio.unuse label {
+    opacity:0.45;
+}
+
+.hmg-form-radio.unuse label:before{
+    border-color: #888888;
+}
+.w130px{width:130px;}
+.custom-resize{
+    border:1px solid #eee;
+    overflow:hidden;
+    resize:vertical !important;
+}
+.ui-selectmenu-menu{z-index:130;}
+.ui-selectmenu-menu ui{z-index:130;}

@@ -1,0 +1,450 @@
+div.datepicker {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  cursor: default;
+  display: none;
+}
+
+/* Hide border divs by default */
+.datepickerBorderT,
+.datepickerBorderB,
+.datepickerBorderL,
+.datepickerBorderR,
+.datepickerBorderTL,
+.datepickerBorderTR,
+.datepickerBorderBL,
+.datepickerBorderBR {
+  display:none;
+}
+
+.datepickerHidden {
+  display: none;
+}
+div.datepicker table {
+  border-collapse:collapse;
+}
+div.datepicker a {
+  color: black;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+}
+div.datepicker table td {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+div.datepicker th {
+  text-align: center;
+  color: #666666;
+  font-weight: normal;
+  padding:0;
+  height: 22px;
+}
+div.datepicker tbody a {
+  display: block;
+}
+.datepickerDays a {
+  width: 100%;
+  line-height: 22px;
+  height: 22px;
+  padding: 0 7px;
+}
+.datepickerYears a,
+.datepickerMonths a{
+  width: 39px;
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+}
+.datepickerMonths td:first-child a,
+.datepickerMonths td:last-child a,
+.datepickerYears td:first-child a,
+.datepickerYears td:last-child a {
+  width:38px;
+}
+td.datepickerNotInMonth a {
+  color: #666666;
+}
+
+tbody.datepickerDays td {padding-top:9px !important;}
+
+tbody.datepickerDays td.datepickerSelected{
+  /* background: #136A9F; */
+}
+tbody.datepickerDays td.datepickerSelected > a {
+  background-color: #0475ff;
+}
+
+tbody.datepickerDays td.datepickerNotInMonth.datepickerSelected {
+  background: #FFFFFF;
+}
+tbody.datepickerYears td.datepickerSelected,
+tbody.datepickerMonths td.datepickerSelected{
+  background: #17384d;
+}
+div.datepicker td.datepickerSelected a, div.datepicker td.datepickerSelected2 a {
+  color:white;
+}
+tbody.datepickerDays td.datepickerSelected2 {
+  /* background: #86BE2B; */
+}
+tbody.datepickerDays td.datepickerSelected2 > a {
+  background-color: #eaeaea;
+  color:#000000;
+}
+tbody.datepickerDays td.datepickerSelected.datepickerSelected2 {
+  /* background: #00B1AB; */
+}
+
+tbody.datepickerDays td.datepickerNotInMonth.datepickerSelected2 {
+  background: #FFF;
+}
+
+tbody.datepickerYears td.datepickerSelected2,
+tbody.datepickerMonths td.datepickerSelected2{
+  background: #174d38;
+}
+div.datepicker td.datepickerSelected a {
+  color:white;
+}
+
+div.datepicker td.datepickerSelected a.first_day,
+div.datepicker td.datepickerSelected2 a.first_day {border-radius:50% 0 0 50%;}
+div.datepicker td.datepickerSelected a.last_day,
+div.datepicker td.datepickerSelected2 a.last_day {border-radius:0 50% 50% 0;}
+
+div.datepicker a:hover,
+div.datepicker a:hover {
+  color: #88c5eb;
+}
+div.datepicker td.datepickerNotInMonth a:hover {
+  color: #999999;
+}
+.datepickerSpace div {
+  width: 20px;
+}
+.datepickerBlock {
+  vertical-align:top;
+}
+a.datepickerGoNext,
+a.datepickerGoPrev{cursor:pointer !important;font-size:9px !important;}
+
+a.datepickerGoNext,
+a.datepickerGoPrev,
+a.datepickerMonth {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  /*float:left;*/
+
+}
+a.datepickerGoNext {
+  /*float:right;*/
+}
+div.datepicker th a.datepickerGoNext,
+div.datepicker th a.datepickerGoPrev {
+  width: 20px;
+  color: #666666;
+  visibility: hidden;
+}
+div.datepicker th a.datepickerMonth {
+  /*width:calc(100% - 40px);*/
+  display:inline-block;
+  vertical-align: top;
+  line-height:22px;
+}
+/* Only display the previous/next arrows on the first/last calendars */
+div.datepicker .datepickerFirstView th a.datepickerGoPrev,
+div.datepicker .datepickerLastView th a.datepickerGoNext {
+  visibility: visible;
+  display:inline-block;
+  vertical-align: top;
+}
+
+div.datepicker .datepickerFirstView th a.datepickerMonth {
+  margin-left:0;
+}
+/* Day mode calendar body */
+table.datepickerViewDays tbody.datepickerMonths,
+table.datepickerViewDays tbody.datepickerYears {
+  display: none;
+}
+/* Month mode calendar body */
+table.datepickerViewMonths tbody.datepickerDays,
+table.datepickerViewMonths tbody.datepickerYears,
+table.datepickerViewMonths tr.datepickerDoW {
+  display: none;
+}
+/* Year mode calendar body */
+table.datepickerViewYears tbody.datepickerDays,
+table.datepickerViewYears tbody.datepickerMonths,
+table.datepickerViewYears tr.datepickerDoW {
+  display: none;
+}
+td.datepickerDisabled a,
+td.datepickerDisabled.datepickerNotInMonth a{
+  color: #555555;
+}
+td.datepickerDisabled a:hover {
+  color: #333333;
+}
+/* Not used by default, calendar cells can be marked as special if desired (doesn't seem to be totally working) */
+div.datepicker tbody.datepickerDays td.datepickerSpecial a {
+  background: #770000;
+  color:white;
+}
+div.datepicker tbody.datepickerDays td.datepickerSpecial.datepickerSelected a {
+  background: #aa0000;
+}
+
+/* style the 'not in month' day cell away */
+tbody.datepickerDays td.datepickerNotInMonth.datepickerSelected {
+  background-color:transparent;
+}
+div.datepicker td.datepickerNotInMonth a span {
+  display:block;color:#cccccc;
+}
+div.datepicker td.datepickerNotInMonth a:hover span {
+  display:block;
+}
+div.datepicker tbody.datepickerDays tr:last-child td.datepickerNotInMonth:first-child {
+  display:none;
+}
+div.datepicker tbody.datepickerDays tr:last-child td.datepickerNotInMonth:first-child ~ td.datepickerNotInMonth {
+  display:none;
+}
+
+div.datepicker tbody.datepickerDays td.datepickerNotInMonth:hover {
+  background-color: transparent;
+}
+
+
+/* ==================================================================
+  DateRangesWidget style
+================================================================== */
+.pickerContainer.widget {
+  float: left;
+  margin-left:10px;
+}
+#datepicker-dropdown {
+  font-size: 12px;
+}
+
+/* Style the calendar custom widget */
+.date-range {
+  position:relative;
+}
+.date-range-field {
+  overflow: hidden;
+  position: relative;
+  cursor:pointer;
+  width: 300px;
+  height: 45px;
+  margin: 0;
+  padding: 6px 15px;
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.date-range-field .select_name{display:inline-block;font-size:16px;font-weight:600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;margin-top:5px;line-height:normal;}
+.date-range-field .select_name_sub{font-size: 14px; color: #222; position: absolute;left: 60px;top: 5px;line-height:normal;}
+.date-range-field .select_name_sub * {font-style: normal;}
+.date-range-field .select_name_sub span {display:block;font-size: 13px; color: #666;}
+.date-range-field .select_name_sub span.main {font-size:14px;color:#222;}
+.date-range-field:after {
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  content: '';
+  display: block;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 17px;
+  top: 50%;
+  -webkit-transform-origin: 66% 66%;
+  -ms-transform-origin: 66% 66%;
+  transform-origin: 66% 66%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+}
+.DRWOpened .date-range-field:after {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+/*
+.date-range-field a  {
+color:#D2D2D2;
+background-color:#F7F7F7;
+text-align:center;
+display: block;
+position: absolute;
+width: 26px;
+height: 23px;
+top: 0;
+right: 0;
+text-decoration: none;
+padding-top:2px;
+border-radius: 0 5px 5px 0;
+}
+
+.date-range-field span {
+font-size: 12px;
+font-weight: bold;
+color: #404040;
+position: relative;
+top: 0;
+left: 5px;
+text-align: center;
+}
+*/
+#datepicker-dropdown {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  /*overflow: hidden;*/
+  width: 540px;
+  /* height:248px; */
+  background-color: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  display:none;
+  padding:0;
+    z-index: 99;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.22);
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+}
+#datepicker-dropdown:before {content:'';position: relative;}
+#datepicker-dropdown:after {content:'';position: absolute;top:0;left:269px;width:1px;height:calc(100% - 45px);background-color:#eaeaea;}
+#datepicker-dropdown .parameters {display:none !important;}
+#datepicker-dropdown .date-ranges-picker {float:left;width:50%;height:100%;overflow:auto;/*border-right:1px solid #eaeaea;*/}
+#datepicker-dropdown .date-ranges-picker .datepicker {width:calc(100% - 20px) !important;height:auto !important;margin:10px;}
+
+#datepicker-dropdown .date-ranges-picker .datepickerContainer {width:100% !important;height:100% !important;}
+
+#datepicker-dropdown .btn-group {display:block;clear:both;border-top:1px solid #eaeaea;padding:10px;box-sizing:border-box;text-align:right;}
+#datepicker-dropdown .btn-group button + button { margin-left:5px;}
+  #datepicker-dropdown button {
+  min-width:60px;
+  height:24px;
+  line-height:22px;
+  border-radius: 3px;
+  border: solid 1px #0475ff;
+  text-align:center;
+  background:#fff;
+  font-size:12px;
+  color:#0475ff;
+}
+
+#datepicker-dropdown button#button-ok {
+  background-color: #0475ff;
+  color:#fff;
+}
+
+
+/* Remove default border from the custom widget since we're adding our own.  TBD: rework the dropdown calendar to use the default borders */
+#datepicker-dropdown div.datepicker {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+#datepicker-dropdown select {
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  vertical-align: top;
+  padding: 0;
+}
+
+#datepicker-dropdown input {
+  width: auto;
+  height: 10px;
+  font-size: 90%;
+  vertical-align: top;
+}
+
+.datepicker-calendar {
+float: left;
+}
+
+.datepicker-compare-calendar {
+clear: both;
+float: left;
+}
+
+/*.date-range-field span.comparison-divider, */
+.date-range-field span.comparison {
+text-align: left;
+display: block;
+color: gray;
+font-weight: normal;
+font-size: 60%;
+}
+
+#datepicker-dropdown .right {
+float:left;
+}
+
+#datepicker-dropdown input[type=text] {
+width: 7em;
+}
+
+.datepicker, .date-ranges-form {
+float: left;
+}
+
+.date-ranges-form {
+  float: right;
+  width:50%
+}
+.date-ranges-form .main-daterange {
+border-bottom:1px solid #eaeaea;
+padding:20px 29px 15px 19px;
+}
+.date-ranges-form .date__title {font-size:12px;color:#000;font-weight: 600;margin-bottom:5px;}
+.date-ranges-form .main-daterange .date__dr {width:100%;height:32px;border:1px solid #cccccc;margin-top:5px;line-height:30px;font-size:12px;color:#000;padding:0 10px;box-sizing: border-box;}
+.date-ranges-form .main-daterange .date__dr input[type=text] {width:55px !important;border:0;height:30px !important;line-height:30px !important;font-size:12px !important;color:#000;padding:0;outline:none;}
+.date-ranges-form .comparison-daterange .date__dr {width:100%;height:32px;border:1px solid #cccccc;margin-top:5px;line-height:30px;font-size:12px;color:#000;padding:0 10px;box-sizing: border-box;}
+.date-ranges-form .comparison-daterange .date__dr input[type=text] {width:55px !important;border:0;height:30px !important;line-height:30px !important;font-size:12px !important;color:#000;padding:0;outline:none;}
+.date-ranges-form input[type=text]:disabled {background-color:transparent;}
+
+.date-ranges-form .comparison-daterange {
+padding:14px 29px 20px 19px;
+}
+
+.dr1.active {
+border-color: #07C
+}
+.dr2.active {
+border-color: #86BE2B
+}
+
+#datepicker-dropdown input.daterange-preset-parameter1 {
+  width: 40px;
+  height: 18px;
+  font-size: 90%;
+  vertical-align: top;
+  padding: 0;
+}
+
+span.aggregation {
+background: #eee;
+border: #ccc 1px solid;
+border-radius: 4px;
+margin-right: 5px;
+margin-top: 4px;
+padding: 2px 3px 0 3px;
+float: left;
+height: 20px;
+}
