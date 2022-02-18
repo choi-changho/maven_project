@@ -3,10 +3,10 @@
 <div class="error_wrp">
     <div class="error_section error_404">
         <h1>페이지에 접근 할수 없습니다.</h1>
-        <!-- <p>You may have mistyped the address or the page may have moved. Start again from here.</p> -->
         <p>주소를 잘못 입력했거나 페이지가 이동했을 수 있습니다.</p>
         <br/><button class="basic-btn"><span>홈으로 이동</span></button>
     </div>
+    <p>${ctag:prop('system.env')}</p>
 </div>
 
 <script type="text/javascript">

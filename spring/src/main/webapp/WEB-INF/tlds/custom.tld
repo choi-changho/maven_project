@@ -10,87 +10,21 @@
 	<short-name>ctag</short-name>
 	<uri>http://customTag.com/jstl</uri>
 	
-	<tag> 
-		<name>combo</name> 
-		<tag-class>com.hyundai.hmg.servlet.taglib.ComboTag</tag-class> 
-		<body-content>empty</body-content> 
-		<attribute> 
-			<name>id</name>
-			<required>true</required>
-		</attribute>
-		<attribute> 
-			<name>userSession</name>
-			<rtexprvalue>true</rtexprvalue>
-		</attribute>
-		<attribute> 
-			<name>codeGrp</name>
-			<required>true</required>
-		</attribute>
-		<attribute> 
-			<name>defaultCode</name>
-			<rtexprvalue>true</rtexprvalue>
-		</attribute>
-		<attribute> 
-			<name>spaceName</name>
-			<rtexprvalue>true</rtexprvalue>
-		</attribute>
-		<attribute> 
-			<name>className</name>
-		</attribute>
-		<attribute> 
-			<name>codeDisplay</name>
-		</attribute>
-		<attribute> 
-			<name>opt</name>
-		</attribute>
-	</tag>
-	
 	<function>
    		<name>prop</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
+   		<function-class>com.spring.prj.sevlet.taglib.ELUtils</function-class>
    		<function-signature>java.lang.String getProperty( java.lang.String )</function-signature>
 	</function>
 	
 	<function>
-   		<name>comCode</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
-   		<function-signature>java.lang.String getComCode( java.lang.String, java.lang.Object )</function-signature>
-	</function>
-	
-	
-	<function>
-   		<name>codeName</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
-   		<function-signature>java.lang.String getCodeName( java.lang.String, java.lang.String, java.lang.Object )</function-signature>
-	</function>
-
-	<function>
    		<name>dateFormat</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
+   		<function-class>com.spring.prj.sevlet.taglib.ELUtils</function-class>
    		<function-signature>java.lang.String dateFormat( java.lang.String, java.lang.Object )</function-signature>
 	</function>
     
 	<function>
    		<name>systemMode</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
+   		<function-class>com.spring.prj.sevlet.taglib.ELUtils</function-class>
    		<function-signature>java.lang.String getSystemMode()</function-signature>
-	</function>
-	
-	<function>
-   		<name>goUrl</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
-   		<function-signature>java.lang.String goUrl(java.lang.Object)</function-signature>
-	</function>
-	
-	<function>
-   		<name>getMessage</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
-   		<function-signature>java.lang.String getMessage(java.lang.String)</function-signature>
-	</function>
-	
-	<function>
-   		<name>getAvailableLangCodeList</name>
-   		<function-class>com.hyundai.hmg.servlet.taglib.ELUtils</function-class>
-   		<function-signature>java.lang.String getAvailableLangCodeList()</function-signature>
 	</function>
 </taglib>
