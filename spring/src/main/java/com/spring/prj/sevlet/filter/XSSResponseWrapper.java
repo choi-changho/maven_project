@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 /**
 *
 * @ClassName : XSSRequestWrapper.java
-* @Description : Response XSS 처리를 위한 Wrapper Class
+* @Description : Response Stream Output Wrapper Class
 * @author changho.choi
 * @since 2022. 02. 19
 * @version 1.0
