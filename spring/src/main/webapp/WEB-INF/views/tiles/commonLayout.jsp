@@ -7,11 +7,7 @@
 <tiles:insertAttribute name="header"/>
 </head>
 <body>
-    <!-- content -->
-    <div class="content-wrap">
-        <tiles:insertAttribute name="body"/>
-    </div>
-    <!-- //content -->
+	<tiles:insertAttribute name="body"/>
 </body>
 </html>
 <script type="text/javascript">

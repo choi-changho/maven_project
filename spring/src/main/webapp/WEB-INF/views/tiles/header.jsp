@@ -4,7 +4,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1 , minimum-scale=1, target-densityDpi=device-dpi">
 <link rel="shortcut icon" type="image/x-icon" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/img/${ctag:prop("img.favicon")}'>
-<%-- 
 <link rel='stylesheet' type='text/css' href='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/css/w2ui-1.5.min.css' />
 <link rel="stylesheet" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/plugin/css/jquery-ui.css?dt=${nowDate}'>
 <link rel="stylesheet" href='${ctag:prop("static.prefix.resource.url")}/resources/assets/plugin/css/newdaterangepicker.css?dt=${nowDate}'>
@@ -41,12 +40,11 @@
 <script type="text/javascript" src='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/js/editor/trumbowyg.js'></script>
 
 <!-- Import Trumbowyg plugins... -->
-<script type="text/javascript" src='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/js/editor/ko.min.js'></script> --%>
-<!--
+<script type="text/javascript" src='${ctag:prop("static.prefix.resource.url")}/resources/assets/libs/js/editor/ko.min.js'></script>
+
 <script type="text/javascript">
     // Global Variable
     var GV_CODES = {};
-//     var GV_CTX = "${ctx}";
     var GV_CTX = "${ctag:prop("static.prefix.resource.url")}";
     var GV_MENU_URL = "${MENU_URL}";
     var GV_USER_TIMEZONE = "${sessionScope.SESSION.user.timeZone}";
@@ -66,5 +64,4 @@
     var GV_CONTS_GBN = "";
     var GV_SRCH_PARM = {};
     var GV_STORY_DETAIL_URL = '${ctag:prop("story.url")}';
-</script> --%>
-<p>header</p>
+</script>

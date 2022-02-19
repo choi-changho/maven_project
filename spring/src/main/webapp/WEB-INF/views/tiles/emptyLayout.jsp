@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>empty</title>
+<title>${ctag:prop("site.title")}</title>
 <tiles:insertAttribute name="header"/>
 </head>
 <body>

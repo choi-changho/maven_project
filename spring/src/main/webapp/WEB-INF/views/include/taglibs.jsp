@@ -7,3 +7,4 @@
 <c:set var="ctx" value="${pageContext.request.contextPath}"/>
 <c:if test="${ctx == '/'}"><c:set var="ctx" value=""/></c:if>
 <c:set var="ctx" value="${ctx}"/>
+<c:set var="nowDate" value="20210428160010"/>

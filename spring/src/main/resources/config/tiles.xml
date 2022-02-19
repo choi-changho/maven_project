@@ -9,11 +9,7 @@
         <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp"/>
     </definition>
     
-    <definition name="emptyBody" extends=".empty">
-        <put-attribute name="body" expression="/WEB-INF/views/${tilesBody}.jsp"/>
-    </definition>
-    
-    <definition name=".commonView" template="/WEB-INF/views/tiles/commonLayout.jsp">
+    <definition name=".commonView" template="/WEB-INF/views/tiles/emptyLayout.jsp">
         <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp"/>
     </definition>
     
