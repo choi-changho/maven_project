@@ -64,6 +64,13 @@
         </property>
     </bean>
     
+    <!-- file Upload -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="107374182400" /> <!-- 100GB -->
+        <property name="maxInMemorySize" value="5242880" /> <!-- 5MB -->
+    </bean>
+    
+    <!-- interceptor 설정 -->
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**/*.do" />
