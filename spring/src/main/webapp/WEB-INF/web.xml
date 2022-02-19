@@ -14,7 +14,29 @@
       	<param-name>logbackConfigLocation</param-name>
       	<param-value>classpath:logback.xml</param-value>
   	</context-param>
-  
+  	
+  	<!-- filter 설정 -->
+	<filter>
+        <filter-name>secureFilter</filter-name>
+        <filter-class>com.spring.prj.sevlet.filter.SecureFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+        <init-param> 
+            <param-name>forceEncoding</param-name> 
+            <param-value>true</param-value> 
+        </init-param> 
+    </filter>
+    <filter-mapping>
+        <filter-name>secureFilter</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>secureFilter</filter-name>
+        <url-pattern>*.view</url-pattern>
+    </filter-mapping>
+    
   	<!-- dispatcher servlet 설정 -->
   	<servlet>
       	<servlet-name>dispatcher</servlet-name>
